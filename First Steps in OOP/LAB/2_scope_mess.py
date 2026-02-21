@@ -7,7 +7,7 @@ def outer():
         print('inner:', x)
 
     def change_global():
-        x = 'global: changed'
+        x = 'global: changed!'
         print(x)
 
     print('outer:', x)
