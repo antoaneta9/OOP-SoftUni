@@ -1,5 +1,5 @@
-from project.task import Task
-from project.section import Section
+from task import Task
+from section import Section
 
 task = Task("Make bed", "27/05/2020")
 print(task.change_name("Go to University"))
