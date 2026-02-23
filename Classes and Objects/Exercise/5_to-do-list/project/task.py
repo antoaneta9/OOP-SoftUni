@@ -1,4 +1,3 @@
-
 class Task:
     def __init__(self, name: str, due_date: str):
         self.name = name
