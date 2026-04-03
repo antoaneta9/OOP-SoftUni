@@ -78,7 +78,7 @@ class Tournament:
             raise Exception('No such team!')
         team = self.__check_team_name(team_name)
         if team.wins > 0:
-            raise Exception(f"The team has {wins} wins! Removal is impossible!")
+            raise Exception(f"The team has {team.wins} wins! Removal is impossible!")
         self.teams.remove(team)
         return f'Successfully removed {team_name}.'
 
